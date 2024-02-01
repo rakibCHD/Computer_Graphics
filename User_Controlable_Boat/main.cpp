@@ -3,6 +3,7 @@
 #include<math.h>
 #include <GL/glut.h>
 
+
 void circle(GLfloat rx, GLfloat ry, GLfloat cx, GLfloat cy)
 {
     glBegin(GL_POLYGON);
