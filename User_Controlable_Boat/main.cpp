@@ -25,6 +25,7 @@ void init(void)
     glMatrixMode(GL_PROJECTION);
     gluOrtho2D(0, 500, 0, 500);
 }
+
 float bx = 10;
 
 void clouds()
@@ -107,7 +108,6 @@ void display(void)
     glEnd();
 
     glColor4f(1.0f, 1.0f, 1.0f, 0.0f);
-
     circle(15, 20, 362 + shift, 330);
 
 
@@ -116,13 +116,12 @@ void display(void)
 
     circle(25, 30, 175, 450);
 
-
     clouds();
-
 
     glFlush();
     glutSwapBuffers();
 }
+
 
 /* function to make the user able to deal with the system */
 void key(int key, int x, int y) {
@@ -138,6 +137,7 @@ void key(int key, int x, int y) {
         break;
     }
 }
+
 
 int main(int argc, char** argv)
 {
