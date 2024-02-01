@@ -8,7 +8,6 @@
 #define HEXAGON 2
 #define BARNSLEY 3
 
-
 /* globals */
 GLsizei wh = 500, ww = 500; /* initial window size */
 int option = PENTAGON;
@@ -16,7 +15,6 @@ int points=5000;
 int x1,y1; //cursor
 int move_init=1; //flag to move
 int lastX=0,lastY=0; //origin
-
 
 /* reshaping routine called whenever window is resized or moved */
 void myReshape(GLsizei w, GLsizei h)
