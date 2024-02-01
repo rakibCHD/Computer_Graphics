@@ -1,2 +1,2 @@
-# Computer_Graphics
-# Glut 
+ Computer_Graphics
+ Opengl
