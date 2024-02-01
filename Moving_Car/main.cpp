@@ -31,12 +31,14 @@ void sun(GLfloat rx, GLfloat ry, GLfloat cx, GLfloat cy)
     glEnd();
 }
 
+
 void init(void)
 {
     glClearColor(0.0, 0.0, 0.9, 0.0);
     glMatrixMode(GL_PROJECTION);
     gluOrtho2D(0.0, 500, 0.0, 500); // window size
 }
+
 float bx = 10;
 
 void hills() {
