@@ -8,6 +8,7 @@
 #define HEXAGON 2
 #define BARNSLEY 3
 
+
 /* globals */
 GLsizei wh = 500, ww = 500; /* initial window size */
 int option = PENTAGON;
@@ -35,6 +36,7 @@ void myReshape(GLsizei w, GLsizei h)
     wh = h;
 }
 
+
 /*Mouse callback for the motion of the fractal with the mouse */
 void mouseMove(int x, int y)
 {
@@ -51,6 +53,7 @@ void mouseMove(int x, int y)
    glutPostRedisplay();
 }
 
+
 /* Small fuction to return a random number */
 int number(void)
 {
@@ -60,6 +63,7 @@ int number(void)
    x = x%9+1;
    return x;
 }
+
 
 /* mynit */
 void myinit(void)
