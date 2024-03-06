@@ -2,6 +2,7 @@
 #include <GL/glut.h>  // GLUT, include glu.h and gl.h
 #include <math.h>
 
+
 /* Handler for window-repaint event. Call back when the window first appears and
 whenever the window needs to be re-painted. */
 
