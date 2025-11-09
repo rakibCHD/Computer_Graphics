@@ -1,10 +1,9 @@
-1.fg->bin->x64->freeglut.dll->copy this .dll to->C:Windows folder.
+1.fg->bin->x64->freeglut.dll->copy this .dll to->"C:\Windows" folder.
 
-2.fg->include->Gl->copy 4 files to->C:\Program Files\CodeBlocks\MinGW\x86_64-w64-mingw32\include\GL folder.
+2.fg->include->Gl->copy 4 files to->"C:\Program Files\CodeBlocks\MinGW\x86_64-w64-mingw32\include\GL" folder.
 
-3.fg->lib->x64->copy 2 files to->C:\Program Files\CodeBlocks\MinGW\x86_64-w64-mingw32\lib folder.
+3.fg->lib->x64->copy 2 files to->"C:\Program Files\CodeBlocks\MinGW\x86_64-w64-mingw32\lib" folder.
 
-4.browse->C:\Program Files\CodeBlocks\share\CodeBlocks\templates->edit glut.cbp in npp..
+4.browse->"C:\Program Files\CodeBlocks\share\CodeBlocks\templates"->edit & save 'glut.cbp' file in Npp(ADMS) by replacing all "glut32"-->"freeglut".
 
-5.C:\Program Files\CodeBlocks\share\CodeBlocks\templates\wizard\glut->edit
-wizard.script in npp..
+5.browse->"C:\Program Files\CodeBlocks\share\CodeBlocks\templates\wizard\glut->edit & save 'wizard.script' file in Npp(ADMS) by replacing all "glut32"-->"freeglut".
